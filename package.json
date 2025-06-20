@@ -1,0 +1,23 @@
+{
+  "name": "swagautomation",
+  "version": "1.0.0",
+  "description": "this is a project where I share how to automate some usual flows in any software project",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcelodanieldm/swagAutomation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/marcelodanieldm/swagAutomation/issues"
+  },
+  "homepage": "https://github.com/marcelodanieldm/swagAutomation#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.53.1",
+    "@types/node": "^24.0.3"
+  }
+}

@@ -1,0 +1,19 @@
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+# Node.js modules
+
+# Playwright-specific files
+/tests-examples/ # Example tests provided by Playwright
+/.local-browsers # Local browser installations managed by Playwrigh
+
+# Environment files
+.env # Environment variables
+
+# Other common ignore patterns
+*.log # Log files
+tmp/ # Temporary files
