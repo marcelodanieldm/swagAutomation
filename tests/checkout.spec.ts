@@ -60,7 +60,7 @@ test.describe('Flujo de Compra (Checkout)', () => {
     });
 
     // Caso de prueba: Cancelar el checkout en el primer paso.
-    test('debería cancelar el checkout y volver al carrito desde el paso uno', async ({ page }) => {
+    test('debería cancelar el checkout y volver al carrito desde el primer paso', async ({ page }) => {
         const checkoutStepOnePage = new CheckoutStepOnePage(page);
         const cartPage = new CartPage(page);
 
@@ -70,7 +70,7 @@ test.describe('Flujo de Compra (Checkout)', () => {
     });
 
     // Caso de prueba: Cancelar el checkout en el segundo paso.
-    test('debería cancelar el checkout y volver a la página de productos desde el paso dos', async ({ page }) => {
+    test('debería cancelar el checkout y volver a la página de productos desde el segundo paso', async ({ page }) => {
         const checkoutStepOnePage = new CheckoutStepOnePage(page);
         const productsPage = new ProductsPage(page);
 
